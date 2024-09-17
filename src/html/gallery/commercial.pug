@@ -1,0 +1,46 @@
+include ../includes/categoryIncludes.pug
+doctype html
+html(lang="en")
+  head
+    +head("Commercial | Ismail Salah")
+  body
+    +nav
+    //- Start Gallery
+    section.gallery#gallery
+      +heading("Commercial", "Collection of albums for the Commercial Industry")
+      .container
+        .container
+          a(href="commercial/gig" data-aos="zoom-in-up").gallery-box
+              .image
+                img(src="../ImagesGallery/commercial/gig/gig-8.png")
+              .text.center-flex
+                p GIG Bahrain
+          a(href="commercial/beyon" data-aos="zoom-in-up").gallery-box
+            .image
+              img(src="../imagesGallery/commercial/beyon/beyon-5.png")
+            .text.center-flex
+              p Beyon
+          a(href="commercial/boxon" data-aos="zoom-in-up").gallery-box
+            .image
+              img(src="../imagesGallery/commercial/boxon/boxon-9.png")
+            .text.center-flex
+              p Boxon Brand Visionaries
+          a(href="commercial/city-center" data-aos="zoom-in-up").gallery-box
+            .image
+              img(src="../imagesGallery/commercial/city-center/city-center-5.png")
+            .text.center-flex
+              p City Centre Bahrain
+          a(href="commercial/jp-morgan" data-aos="zoom-in-up").gallery-box
+            .image
+              img(src="../imagesGallery/commercial/jp-morgan/jp-morgan-10.png")
+            .text.center-flex
+              p J.P. Morgan
+          a(href="commercial/you-app" data-aos="zoom-in-up").gallery-box
+            .image
+              img(src="../imagesGallery/commercial/you-app/you-app-4.png")
+            .text.center-flex
+              p YOU app
+    //- End Gallery
+    +footer
+    +loading
+    +athers("commercial")

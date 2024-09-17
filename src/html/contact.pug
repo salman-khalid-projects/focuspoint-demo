@@ -1,0 +1,57 @@
+include includes/includes.pug
+doctype html
+html(lang="en")
+  head
+    +head("Contact Me | Ismail Salah")
+  body
+    +nav
+    //- Start Contact me
+    section.contact#contact
+      +heading("Contact Me", "Get in Touch")
+      .container
+        .left(data-aos="fade-right")
+          h1 Contact Us
+          p Stay in touch via our social media channels to receive the latest an- nouncements, news, and updates fromus.
+          form
+            label(for="inputName") Enter Your Name :
+            input(type="text" id="inputName" maxlength="20" placeholder="Name")
+            span(class="progress progOne")
+
+            label(for="message") Your message :
+            textarea(id="message" maxlength="100" placeholder="Message")
+            span(class="progress progTwo")
+
+            input(type="submit" id="submit" value="Send message")
+        
+        .right(data-aos="fade-right")
+          h1 Contact Info
+          p Always available for freelance work if the right project comes along, Feel free to contact me!
+          .container
+            .box-container
+              .box
+                i(class="fas fa-signature")
+                span
+                  h4 Name
+                  p Ismail Salah
+              .box
+                i(class="fas fa-phone-alt")
+                span
+                  h4 Call Me
+                  p #[a(href="tel:+973 37320462") +973 3732 0462]
+              .box
+                i(class="fas fa-envelope")
+                span
+                  h4 Email Me
+                  p #[a(href="mailto:Abdulrahmankhalid797@gmail.com") Abdulrahmankhalid797@gmail.com]
+
+            .qrbox
+              img(src="images/qr-code.png", alt="Qr Code")
+              .social
+                a(href="https://www.facebook.com" target="_blank" title="Facebook") #[i(class="fab fa-facebook" aria-hidden="true")]
+                a(href="https://twitter.com" target="_blank" title="Twitter") #[i(class="fab fa-twitter" aria-hidden="true")]
+                a(href="https://www.instagram.com" target="_blank" title="Instagram") #[i(class="fab fa-instagram" aria-hidden="true")]
+    //- End Contact me
+    +footer
+    +loading
+    script(src="js_files/contact.js")
+    +athers("contact")
