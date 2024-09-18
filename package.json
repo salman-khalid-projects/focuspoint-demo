@@ -1,26 +1,26 @@
 {
-  "name": "photography-portfolio",
+  "name": "focustpoint-demo",
   "version": "1.0.0",
-  "description": "photography-portfolio",
+  "description": "focustpoint-demo",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kareem-m/photography-portfolio.git"
+    "url": "git+https://github.com/kareem-m/focustpoint-demo.git"
   },
   "keywords": [
-    "photography-portfolio",
+    "focustpoint-demo",
     "photography",
     "portfolio"
   ],
   "author": "Abdelrahman Khaled",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kareem-m/photography-portfolio/issues"
+    "url": "https://github.com/kareem-m/focustpoint-demo/issues"
   },
-  "homepage": "https://github.com/kareem-m/photography-portfolio#readme",
+  "homepage": "https://github.com/kareem-m/focustpoint-demo#readme",
   "devDependencies": {
     "connect-history-api-fallback": "^2.0.0",
     "gulp": "^4.0.2",

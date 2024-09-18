@@ -7,7 +7,7 @@
 
 # Photography Portfolio Website
 
-[Open in Visual Studio Code](https://vscode.dev/github/kareem-m/photography-portfolio)
+[Open in Visual Studio Code](https://vscode.dev/github/kareem-m/focustpoint-demo)
 
 ## Preview
 
@@ -32,7 +32,7 @@ $ gulp
 
 ## How to support?
 
-- If you face any error, Submit the issue from [Here](https://github.com/kareem-m/photography-portfolio/issues).
+- If you face any error, Submit the issue from [Here](https://github.com/kareem-m/focustpoint-demo/issues).
 - If you can optimize code or add new features, Use Pull Requests.
 - Have a new idea? Contact me at [Facebook](https://www.facebook.com/kareem1911)
 
@@ -41,3 +41,4 @@ Feel free to use any material.
 
 </div>"# focuspoint-demo" 
 "# focuspoint-demo" 
+"# photography-portfolio-main" 
