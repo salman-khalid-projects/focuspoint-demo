@@ -1,46 +1,21 @@
 {
-  "name": "focustpoint-demo",
-  "version": "1.0.0",
-  "description": "focustpoint-demo",
-  "main": "gulpfile.js",
+  "name": "new-photographi-portfolio",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kareem-m/focustpoint-demo.git"
-  },
-  "keywords": [
-    "focustpoint-demo",
-    "photography",
-    "portfolio"
-  ],
-  "author": "Abdelrahman Khaled",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kareem-m/focustpoint-demo/issues"
-  },
-  "homepage": "https://github.com/kareem-m/focustpoint-demo#readme",
-  "devDependencies": {
-    "connect-history-api-fallback": "^2.0.0",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^8.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-connect": "^5.7.0",
-    "gulp-connect-php": "^1.0.3",
-    "gulp-html-replace": "^1.6.2",
-    "gulp-livereload": "^4.0.2",
-    "gulp-pug": "^5.0.0",
-    "gulp-sass": "^5.1.0",
-    "gulp-sourcemaps": "^3.0.0",
-    "gulp-uglify": "^3.0.2",
-    "sass": "^1.49.9"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "static-server": "^2.2.1"
+    "next": "14.2.12",
+    "react": "^18",
+    "react-dom": "^18",
+    "typed.js": "^2.1.0"
   },
-  "browserslist": [
-    "last 2 version",
-    "> 2%"
-  ]
+  "devDependencies": {
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
 }
