@@ -1,5 +1,7 @@
-import Header from "@/components/Header";
+"use client"
 import Gallery from "@/components/Gallery";
+import Header from "@/components/Header";
+import Tags from "@/components/Tags";
 
 export default function GalleryPage() {
   return (
@@ -8,6 +10,8 @@ export default function GalleryPage() {
         title="My gallery"
         desc="Best works"
       />
+
+      <Tags/>
 
       <Gallery/>
     </section>

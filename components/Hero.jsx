@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 import Typed from "typed.js";
 import { useRef, useEffect } from "react";
@@ -50,7 +50,6 @@ export default function Hero() {
       <button 
         className="bg-slate-50 rounded-full absolute right-5 bottom-5 animate-bounce max-[300px]:hidden"
         onClick={() => {
-          console.log(getImages())
           window.scroll({
             top: 700
           });

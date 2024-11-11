@@ -1,5 +1,5 @@
 import Header from '@/components/Header'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import profilePic from "@/public/images/profile7.png"
 
 function Card({ number, text }) {
@@ -23,7 +23,7 @@ export default function About() {
       />
 
       <div className="py-12 sm:px-40 max-sm:p-12 w-full flex flex-col justify-center">
-        <div className="global_grid justify-center gap-5 max-sm:flex flex-col">
+        <div className="grid grid-cols-2 justify-center gap-5 max-lg:flex flex-col">
           <div className="about_image relative p-5">
             <Image
               src={profilePic}
@@ -43,7 +43,7 @@ export default function About() {
             <p className={textStyle}>and don't forget that pray comes before enjoy</p>
           </div>
         </div>
-        <div className="bg-background-2 rounded-lg text-center p-1.5 mt-7 w-full">
+        <div className="bg-background-2 rounded-lg text-center p-1.5 mt-12 w-full">
           <q className="text-3xl my-5 text-secondary block max-md:text-[3.5vw]"> You don't take a photograph, you make it </q>
           <p className="text-xl mb-5 max-sm:text-xs">- Ansel Adams</p>
         </div>

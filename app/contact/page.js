@@ -1,6 +1,6 @@
 import Form from "@/components/Form";
 import Header from "@/components/Header";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 
 function ContactInfo({ icon, title, desc }) {
@@ -30,7 +30,7 @@ export default function Contact() {
         desc="Get In Touch"
       />
 
-      <div className="global_grid gap-10 md:p-40 max-md:p-8 max-sm:flex flex-col">
+      <div className="grid grid-cols-2 gap-10 md:p-40 max-md:p-8 max-lg:flex flex-col">
         <div className="py-8 flex flex-col gap-4">
           <h1 className="font-normal text-[40px] text-secondary">Contact Us</h1>
           <p className="w-5/6 leading-normal">Stay in touch via our social media channels to receive the latest announcements, news, and updates from us.</p>
